@@ -1,0 +1,36 @@
+{
+  "name": "bin-brothers-voice-gateway",
+  "version": "1.0.0",
+  "description": "AI Voice Gateway for Bin Brothers Services",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Build completed'"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "ws": "8.14.2",
+    "axios": "1.6.0",
+    "dotenv": "16.3.1",
+    "@deepgram/sdk": "3.2.0",
+    "openai": "4.20.1",
+    "cors": "2.8.5",
+    "uuid": "9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.1"
+  },
+  "keywords": ["ai", "voice", "twilio", "deepgram", "openai", "railway"],
+  "author": "Bin Brothers Services",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/bin-brothers-voice-gateway.git"
+  }
+}
