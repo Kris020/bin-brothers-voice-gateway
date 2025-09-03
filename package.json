@@ -9,7 +9,7 @@
     "dev": "node server.js",
     "build": "echo 'Build completed'"
   },
-  "engines": {
+  "engines": { "node": "18.x"
     "node": ">=18.0.0",
     "npm": ">=8.0.0"
   },
